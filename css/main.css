@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
@@ -83,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
 .info-section {
   background-color: #fff;
   padding: 30px 60px;
-  text-align: center;;
+  text-align: center;
+  border-bottom: 1px solid #eee;
 }
 
 .info-section li {
@@ -146,6 +155,55 @@ h1, h2, h3, h4, h5, h6 {
 
 .info-section header {
   margin-bottom: 60px;
+}
+
+.education-experience__list li {
+  height: 220px;
+}
+
+.education-experience__list li img {
+  float: left;
+  width: 180px;
+}
+
+.education-experience__list li div {
+  overflow: hidden;
+  text-align: left;
+  padding: 0 40px;
+}
+
+.education-experience__list li h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 23px;
+}
+
+.education-experience__title {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.photos__list {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.photos__list li img {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.get-in-touch__list {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.get-in-touch__list li {
+  float: left;
+  width: 25%;
 }
 
 
